@@ -1,7 +1,7 @@
 import pandas as pd
 
-data_one = pd.read_csv('data_a.csv')
-data_two = pd.read_csv('data_p.csv')
+data_one = pd.read_csv('data_one.csv')
+data_two = pd.read_csv('data_two.csv')
 print('Data loaded')
 
 data_one = data_one.drop(['id'], axis=1)
